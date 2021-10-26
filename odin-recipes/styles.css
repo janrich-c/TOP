@@ -1,10 +1,44 @@
-p, ul, ol {
-    font-family: 'Gayathri', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+
+a {
+  color: black;
+}
+
+a,
+p,
+ul,
+ol,
+h1,
+h2 {
+  font-family: "Zen Kurenaido", sans-serif;
+  text-align: center;
+  font-size: larger;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+ol,
+ul,
+p {
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 img {
-    display: block;
-    margin-left: 10px;
-    margin-right: auto;
-    width: 80%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 40%;
+}
+
+.recipe-list {
+  margin-bottom: 300px;
+}

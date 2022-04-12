@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
 
-a {
-  color: black;
+body {
+  background-color: bisque;
 }
-
 a,
 p,
 ul,
@@ -13,6 +12,19 @@ h2 {
   font-family: "Zen Kurenaido", sans-serif;
   text-align: center;
   font-size: larger;
+  text-decoration: none;
+}
+
+div {
+  text-align: center;
+}
+
+div a {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
 }
 
 h2 {
@@ -21,6 +33,7 @@ h2 {
 
 h1 {
   font-size: 70px;
+  margin: 30px;
 }
 
 ol,
@@ -40,5 +53,5 @@ img {
 }
 
 .recipe-list {
-  margin-bottom: 300px;
+  margin-bottom: 30px;
 }
